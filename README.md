@@ -1,5 +1,12 @@
-# Nombre del proyecto : Calendario medico 
+# Nombre del proyecto : 
 
-# Integrantes del proyecto: Tomas Moschetto, Micaela Brizuela, Sofia Okreniec, Aylen Schillaci
+Calendario medico 
 
-# De que trata el proyecto: es un calendario medico
+# Integrantes del proyecto: 
+
+* Tomas Moschetto
+* Micaela Brizuela
+* Sofia Okreniec
+* Aylen Schillaci
+
+# De que trata el proyecto: 
