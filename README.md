@@ -1,6 +1,6 @@
 # Nombre del proyecto : 
 
-Calendario medico 
+Med Calendar
 
 # Integrantes del proyecto: 
 
@@ -10,5 +10,4 @@ Calendario medico
 * Aylen Schillaci
 
 # De que trata el proyecto: 
-Guardar medicamentos en un calendario, pudiendo así incrementar las chances de poder tomarlos a tiempo.
-
+Este proyecto busca poder guardar datos de medicamentos en un sistema conectado a un calendario para que la persona que lo use pueda tomar sus medicamentos a tiempo.
