@@ -1,0 +1,258 @@
+/*instrucciones generales*/
+* {margin: auto;}
+
+/*cabecera de la página*/
+h1 { 
+	text-align: center; 
+	padding: 0.5em; 
+}
+
+
+/*div principal del calendario*/
+#calendario { 
+	border: 1px solid black;
+	position: absolute;
+	width: 1056px;
+	height: 744px;
+	left: 460px;
+	top: 112px;
+    background-color: #fff; 
+    text-align: center;
+}
+
+
+/*fila de los dias del calendario*/
+#diasc { 
+	border: 1px; 
+	border-color: #fff; 
+	border-collapse: separate; 
+	border-spacing: 4px; 
+}
+
+
+#diasc th, #diasc button { 
+	width: 144px;
+	height: 50px;
+	font: normal 14pt arial; 
+	flex: none;
+	order: 3;
+	align-self: stretch;
+	flex-grow: 1;
+}
+
+/*fila de los dias LUN MAR MIE JUE VIE SAB DOM*/
+#diasc th { 
+	font: bold 14pt arial; 
+	color: #2B84D7; 
+	background-color: #fff }
+
+
+/*fila de numeros*/
+#fila1 td { 
+	font: bold 14pt arial; 
+	color: #000; 
+	background-color: #fff
+	width: 144px;
+	height: 100px;
+}
+
+
+/*fila de numeros*/
+#fila2 td { 
+	font: bold 14pt arial; 
+	color: #2B84D7; 
+	background-color: #fff
+	width: 144px;
+	height: 100px;
+}
+
+/*fila de numeros*/
+#fila3 td { 
+	font: bold 14pt arial; 
+	color: #2B84D7; 
+	background-color: #fff
+	width: 144px;
+	height: 100px;
+}
+
+#fila4 td { 
+	font: bold 14pt arial; 
+	color: #2B84D7; 
+	background-color: #fff
+	width: 144px;
+	height: 100px;
+}
+
+#fila5 td { 
+	font: bold 14pt arial; 
+	color: #2B84D7; 
+	background-color: #fff
+	width: 144px;
+	height: 100px;
+}
+
+#fila6 td { 
+	font: bold 14pt arial; 
+	color: #2B84D7; 
+	background-color: #fff
+	width: 144px;
+	height: 100px;
+}
+
+/*encabezado*/
+#diasc button { color: #8f6376; background-color: #63818f }
+
+/*línea de la fecha actual*/
+#fechaactual {
+position: absolute;
+width: 289px;
+height: 68px;
+left: 56px;
+top: 446px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 125%;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #2B84D7;
+}
+
+#hoy {
+	position: absolute;
+	width: 460px;
+	height: 68px;
+	left: 0px;
+	top: 378px;
+
+	background: #2B84D7;
+	border-radius: 2px;
+
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 27px;
+	line-height: 125%;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+#hoy:hover {
+	background: #B3D7F9;
+	color: #2B84D7;
+}
+
+#fechaactual p {cursor: pointer;}
+#fechaactual p:hover { color: blue; text-decoration: underline; }
+
+/*pie de página#buscafecha { background-color: #663366; color: #63818f; padding: 5px }
+#buscafecha select, #buscafecha input  { background-color: #63818f; 
+            color: #990099; font: bold 10pt arial;  }
+
+#buscafecha [type=text]  { text-align: center; }
+#buscafecha  [type=button] { cursor: pointer; }  */
+
+
+
+/*cabecera del calendario*/ 
+#anterior { 
+	float: left; 
+	width: 100px; 
+	font: bold 12pt arial;
+    padding: 0.5em 0.1em; 
+    cursor: pointer ; 
+}
+
+#anterior:hover {
+	color: #2B84D7;
+}
+
+#posterior { 
+	float: right; 
+	width: 100px; 
+	font: bold 12pt arial; 
+    padding: 0.5em 0.1em; 
+    cursor: pointer;
+}
+
+#posterior:hover {
+	color: #2B84D7;
+}
+
+
+/*Mes y Año*/ 
+#titulos { font: normal 20pt "arial black"; padding: 0.2em; }
+
+#logo {
+	position: absolute;
+	width: 105px;
+	height: 105px;
+	left: 32px;
+	top: 4px;
+}
+
+#user {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	left: 1402px;
+	top: 10px;
+}
+
+#perfil-texto {
+	position: absolute;
+	width: 94px;
+	height: 21px;
+	left: 1402px;
+	top: 80px;
+
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 125%;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #2B84D7;
+}
+
+
+button {
+	width: 365px;
+  	height: 85px;
+  	padding: 1.3em 3em;
+  	font-size: 20px;
+  	font-weight: 700;
+  	color: #222730;
+  	background-color: #B3D7F9;
+  	border: none;
+  	border-radius: 40px;
+  	transition: all 0.3s ease 0s;
+  	cursor: pointer;
+  	position: absolute;
+  	left: 18px;
+	top: 228px;
+}
+
+button:hover {
+  background-color: #2B84D7;
+  color: #fff;
+}
+
+
+header {
+	border: 1px solid black;
+	height: 111px;
+}
